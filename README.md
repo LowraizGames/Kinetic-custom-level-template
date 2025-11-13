@@ -3,7 +3,7 @@
 - Download and install [Blender](https://www.blender.org/download/).
 - Download the [level template file](CustomLevelTemplate.blend) from this repository. (.blend file)
 ### Build your level
-- Design your level using the default blocks or create your own. Only the geometry will be read by the game.
+- Design your level using the default blocks or create your own. Only the geometry will be read by the game. (It is recommended to enable grid snapping)
 - To unlock the ice dimension, place `IceUnlocker` available in the blocks library where you want the orb to be. The Same apply for the bounce dimension with `BounceUnlocker` (Name is important).
 - Place the finish line named `End` wherever you want. (Name is important)
 ### Export
