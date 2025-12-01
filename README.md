@@ -5,7 +5,15 @@
 ### Build your level
 - Design your level using the default blocks or create your own. Only the geometry will be read by the game. (It is recommended to enable grid snapping)
 - To unlock the ice dimension, place `IceUnlocker` available in the blocks library where you want the orb to be. The Same apply for the bounce dimension with `BounceUnlocker` (Name is important).
+- You can also place ferns and jumpers if needed (See example in the blender file)
 - Place the finish line named `End` wherever you want. (Name is important)
+
+#### Blender tips
+Use grid snapping and closed shapes to build your level. If you are familiar with Trenchbroom, you can use the same approach.
+Following this recommandations will make the whole process easier for you and it will prevent collisions and lighting issues.
+
+![](BlenderTips.gif)
+  
 ### Export
 - Select the objects you want to export.
 - Export your level as `Wavefront (.obj)` with the following settings:
